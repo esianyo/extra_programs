@@ -13,4 +13,3 @@ char **parse_command(char *command)
 		args[++i] = strtok(NULL, " ");
 	return (args);
 }
-

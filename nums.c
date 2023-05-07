@@ -6,14 +6,14 @@
  * Return: 0 if successful
  */
 
-int main(void)
+int main()
 {
-	int i = 0;
+	int i;
 
-	while(i < 10)
+	while(i != 10)
 	{
 		printf("%d", i);
 		i++;
-	}
+	}	
 	return (0);
 }

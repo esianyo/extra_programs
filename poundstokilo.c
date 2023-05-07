@@ -18,7 +18,7 @@ int main()
 
 	kilo = pound * 0.454;
 
-	printf("%f pounds in kilogram is: %f kg.", pound, kilo);
+	printf("%f pounds in kilogram is: %f kg.\n", pound, kilo);
 
 	return (0);
 }
